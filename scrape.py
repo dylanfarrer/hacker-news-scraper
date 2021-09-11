@@ -1,4 +1,5 @@
 import requests
+from scraper_gui import *
 from bs4 import BeautifulSoup
 
 res = requests.get('https://news.ycombinator.com/news')
@@ -30,3 +31,4 @@ def nice_print(hnlist):
         print()
 
 nice_print(create_custom_hn(links, subtext))
+createGui(create_custom_hn(links, subtext))
