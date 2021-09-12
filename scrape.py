@@ -2,6 +2,9 @@ import requests
 from scraper_gui import *
 from bs4 import BeautifulSoup
 
+
+#Convert the code just below to a method so it camn be recalled when the refrersh button is hiit.
+
 res = requests.get('https://news.ycombinator.com/news')
 soup = BeautifulSoup(res.text, 'html.parser')
 #this turns the string to html so it can be edited as thus
