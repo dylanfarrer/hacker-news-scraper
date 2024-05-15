@@ -1,4 +1,10 @@
 # hacker-news-scraper
-Grabs stories from hacker news, filters, ranks and displays them
+Grabs stories from hacker news, puts them in a small window.
+Currently only designed for MacOS, and very simple window.
 
-Parses https://news.ycombinator.com/news using beautiful soup. The information is then outputted to a desktop window made with tkinter. It also displays in the terminal in a simplified format.
+# Future installments
+- prettier output
+- websitify?
+- better window mgmt
+- add ranking, more meta info
+- tidy proj layout, make executable
